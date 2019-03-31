@@ -46,7 +46,7 @@ function App() {
               ? books.map((item: any, i: number) => (
                   <img
                     key={item.id._text + i.toString()}
-                    src={item.best_book.image_url}
+                    src={item.best_book.image_url._text}
                     className="gallery__img"
                   />
                 ))

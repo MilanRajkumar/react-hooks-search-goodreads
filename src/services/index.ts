@@ -3,6 +3,7 @@ import axios from 'axios';
 const axiosInstance = axios.create({
   baseURL: 'https://www.goodreads.com',
   withCredentials: false,
+  responseType: 'text',
 });
 const searchBooks = {
   GoodreadsResponse: {
@@ -1013,10 +1014,15 @@ export const useBookNameFetch = async (url: string) => {
   //   method: 'GET',
   //   mode: 'no-cors',
   // });
-  const booksResponse = await axiosInstance.get(url);
-  // const r = await booksResponse.body;
-  console.log('rrr', booksResponse.data);
-  // console.log(books);
-  // const books = searchBooks.GoodreadsResponse.search.results.work;
+  try {
+    const booksResponse = await axiosInstance.get(url);
+    const searchBooks = xml2json(booksResponse.data, { compact: true, spaces: 4 });
+    const searchBooksJ = JSON.parse(searchBooks);
+    const books = searchBooksJ.GoodreadsResponse.search.results.work;
+    console.log(books);
+    return books;
+  } catch (error) {
+    console.log(error);
+  }
   return [];
 };
