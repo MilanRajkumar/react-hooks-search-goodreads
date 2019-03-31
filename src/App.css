@@ -1,0 +1,23 @@
+html {
+  font-size: 16px;
+}
+
+.App {
+  text-align: center;
+  background-image: url('./assets/bg.jpeg');
+  height: calc(100vh - 1rem);
+}
+
+fieldset {
+  border: none;
+  height: 2rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
