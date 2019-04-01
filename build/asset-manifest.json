@@ -1,14 +1,15 @@
 {
-  "main.css": "/react-hooks-search-goodreads/static/css/main.a0248b4e.chunk.css",
-  "main.js": "/react-hooks-search-goodreads/static/js/main.8d95385f.chunk.js",
-  "main.js.map": "/react-hooks-search-goodreads/static/js/main.8d95385f.chunk.js.map",
+  "main.css": "/react-hooks-search-goodreads/static/css/main.d963115e.chunk.css",
+  "main.js": "/react-hooks-search-goodreads/static/js/main.d7613d1f.chunk.js",
+  "main.js.map": "/react-hooks-search-goodreads/static/js/main.d7613d1f.chunk.js.map",
   "runtime~main.js": "/react-hooks-search-goodreads/static/js/runtime~main.1a7947ed.js",
   "runtime~main.js.map": "/react-hooks-search-goodreads/static/js/runtime~main.1a7947ed.js.map",
-  "static/js/2.1a2a9aa1.chunk.js": "/react-hooks-search-goodreads/static/js/2.1a2a9aa1.chunk.js",
-  "static/js/2.1a2a9aa1.chunk.js.map": "/react-hooks-search-goodreads/static/js/2.1a2a9aa1.chunk.js.map",
+  "static/js/2.6798e57f.chunk.js": "/react-hooks-search-goodreads/static/js/2.6798e57f.chunk.js",
+  "static/js/2.6798e57f.chunk.js.map": "/react-hooks-search-goodreads/static/js/2.6798e57f.chunk.js.map",
   "index.html": "/react-hooks-search-goodreads/index.html",
-  "precache-manifest.6d624fb5dbc396a90bd32a295893ccf8.js": "/react-hooks-search-goodreads/precache-manifest.6d624fb5dbc396a90bd32a295893ccf8.js",
+  "precache-manifest.d51dcca19199857fb5806fe7b7ea9e0e.js": "/react-hooks-search-goodreads/precache-manifest.d51dcca19199857fb5806fe7b7ea9e0e.js",
   "service-worker.js": "/react-hooks-search-goodreads/service-worker.js",
-  "static/css/main.a0248b4e.chunk.css.map": "/react-hooks-search-goodreads/static/css/main.a0248b4e.chunk.css.map",
-  "static/media/App.css": "/react-hooks-search-goodreads/static/media/bg.8066800e.jpeg"
+  "static/css/main.d963115e.chunk.css.map": "/react-hooks-search-goodreads/static/css/main.d963115e.chunk.css.map",
+  "static/media/App.css": "/react-hooks-search-goodreads/static/media/bg.8066800e.jpeg",
+  "static/media/sample_book.jpg": "/react-hooks-search-goodreads/static/media/sample_book.dbb907c6.jpg"
 }
