@@ -5,8 +5,9 @@ import './App.css';
 import SearchBooks from './components/books/searchBooks';
 import { useBookNameFetch } from './services';
 import { key } from './constants';
+import { RouteComponentProps } from 'react-router';
 
-function App() {
+const App: React.FC<RouteComponentProps> = ({ history }) => {
   let textInput = useRef<HTMLInputElement>(null);
 
   const [url, setUrl] = useState(`/search.xml?key=${key}&q=${'Game'}`);
@@ -36,6 +37,15 @@ function App() {
     );
   };
 
+  const naviagateToBookDetails = (id: number) => {
+    history.push({
+      pathname: '/book-details',
+      state: {
+        bookId: `${id}`,
+      },
+    });
+  };
+
   return (
     <div className="App">
       <SearchBooks onSubmit={onSearchBooks} ref={textInput} />
@@ -48,6 +58,7 @@ function App() {
                     key={item.id._text + i.toString()}
                     src={item.best_book.image_url._text}
                     className="gallery__img"
+                    onClick={() => naviagateToBookDetails(item.best_book.id._text)}
                   />
                 ))
               : ''}
@@ -58,6 +69,6 @@ function App() {
       )}
     </div>
   );
-}
+};
 
 export default App;

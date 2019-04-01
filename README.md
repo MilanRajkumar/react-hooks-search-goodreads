@@ -1,9 +1,22 @@
-1. Intall yarn
-   - Cache, Faster.
-   https://iamturns.com/yarn-vs-npm-2018/ but again
-   https://blog.risingstack.com/yarn-vs-npm-node-js-package-managers/
-2. yarn create react-app my-app which internally does: $ yarn global add create-react-app
-   $ create-react-app my-app
+1.  Intall yarn
+    - Product by Facebook.
+      Like to read: https://iamturns.com/yarn-vs-npm-2018/
+      Like to read: https://blog.risingstack.com/yarn-vs-npm-node-js-package-managers/
+2.  - Steps to follow to create project:
+      yarn create react-app my-app which internally does: $ yarn global add create-react-app
+   $ create-react-app books-test
+3.  - For the project that i have created, pull from the github
+      i. https://github.com/MilanRajkumar/react-hooks-search-goodreads
+      ii. yarn install
+      iii. To start use - yarn start
+4.  - Since the Goods reads api does not handle cors and for quick disable the chrome web security.
+      To do this open termial and go to applications folder:
+      Ubuntu: google-chrome --disable-web-security --user-data-dir="/tmp/someFolderName"
+      Different OS has slightly different commands.
+5.  - No test is written since, api is not so well to work with the project.
+6.  - Around 50% above can be further enhanched in terms of project structure like css, ui modules etc.
+      UI can be make much better as well.
+7.  - Details books screen data is hardcoded.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

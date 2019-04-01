@@ -1,16 +1,29 @@
-html {
+html * {
   font-size: 16px;
+  font-family: sans-serif;
 }
 
 .App {
   text-align: center;
+  position: relative;
+}
+
+#root {
+  height: calc(100vh);
   background-image: url('./assets/bg.jpeg');
-  height: calc(100vh - 1rem);
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: #fff;
 }
 
 fieldset {
   border: none;
   height: 2rem;
+}
+.f2 {
+  font-size: 2rem;
 }
 
 @keyframes App-logo-spin {

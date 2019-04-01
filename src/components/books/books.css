@@ -22,7 +22,6 @@
 }
 .input-form-wrapper {
   font-size: 1.2rem;
-  margin-top: 1rem;
 }
 .search-input--large {
   width: 25rem;
@@ -45,4 +44,33 @@
 
 .search-btn--large:hover {
   background-color: #3e518e;
+}
+
+.book-details--container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  text-align: center;
+  padding: 1rem;
+  height: calc(100% - 2rem);
+}
+
+.book-details--container__item1 {
+  padding: 1rem;
+  background: #e8e5e4;
+}
+.item1 {
+  margin: 1rem;
+}
+.book-details--container__item2 {
+  padding: 1rem;
+  background: #e8e5e4;
+  color: #000;
+  text-align: left;
+}
+.rating-wrapper {
+  padding: 1rem;
+  display: inline-block;
+}
+.p1 {
+  padding: 1rem;
 }
