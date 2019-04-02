@@ -5,7 +5,7 @@ import BookDetails from './components/books/book-details';
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Route exact path="/" component={App} />
       <Route path="/book-details" component={BookDetails} />
     </BrowserRouter>
