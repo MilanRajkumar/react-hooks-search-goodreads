@@ -1,15 +1,15 @@
 {
-  "main.css": "./static/css/main.10e929bc.chunk.css",
-  "main.js": "./static/js/main.1e14f37d.chunk.js",
-  "main.js.map": "./static/js/main.1e14f37d.chunk.js.map",
-  "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
-  "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
-  "static/js/2.6798e57f.chunk.js": "./static/js/2.6798e57f.chunk.js",
-  "static/js/2.6798e57f.chunk.js.map": "./static/js/2.6798e57f.chunk.js.map",
-  "index.html": "./index.html",
-  "precache-manifest.92f9988800010fe8d0a2fb7bc7d28464.js": "./precache-manifest.92f9988800010fe8d0a2fb7bc7d28464.js",
-  "service-worker.js": "./service-worker.js",
-  "static/css/main.10e929bc.chunk.css.map": "./static/css/main.10e929bc.chunk.css.map",
-  "static/media/App.css": "./static/media/bg.8066800e.jpeg",
-  "static/media/sample_book.jpg": "./static/media/sample_book.dbb907c6.jpg"
+  "main.css": "/react-hooks-search-goodreads/static/css/main.d963115e.chunk.css",
+  "main.js": "/react-hooks-search-goodreads/static/js/main.f9ab5917.chunk.js",
+  "main.js.map": "/react-hooks-search-goodreads/static/js/main.f9ab5917.chunk.js.map",
+  "runtime~main.js": "/react-hooks-search-goodreads/static/js/runtime~main.1a7947ed.js",
+  "runtime~main.js.map": "/react-hooks-search-goodreads/static/js/runtime~main.1a7947ed.js.map",
+  "static/js/2.6798e57f.chunk.js": "/react-hooks-search-goodreads/static/js/2.6798e57f.chunk.js",
+  "static/js/2.6798e57f.chunk.js.map": "/react-hooks-search-goodreads/static/js/2.6798e57f.chunk.js.map",
+  "index.html": "/react-hooks-search-goodreads/index.html",
+  "precache-manifest.c698640997359b19eace7465f172d2d6.js": "/react-hooks-search-goodreads/precache-manifest.c698640997359b19eace7465f172d2d6.js",
+  "service-worker.js": "/react-hooks-search-goodreads/service-worker.js",
+  "static/css/main.d963115e.chunk.css.map": "/react-hooks-search-goodreads/static/css/main.d963115e.chunk.css.map",
+  "static/media/App.css": "/react-hooks-search-goodreads/static/media/bg.8066800e.jpeg",
+  "static/media/sample_book.jpg": "/react-hooks-search-goodreads/static/media/sample_book.dbb907c6.jpg"
 }
