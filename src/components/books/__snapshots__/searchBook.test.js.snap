@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Component should render correctly in "debug" mode 1`] = `
+<div
+  className="App"
+>
+  <ForwardRef
+    onSubmit={[Function]}
+  />
+  <div
+    style={
+      Object {
+        "fontSize": "2rem",
+        "marginTop": "4rem",
+        "textAlign": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <span
+      style={
+        Object {
+          "color": "#fff",
+        }
+      }
+    >
+      Your books will be shown here
+    </span>
+  </div>
+</div>
+`;

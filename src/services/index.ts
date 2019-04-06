@@ -8,7 +8,7 @@ const axiosInstance = axios.create({
     Cookie: `${'csid=BAhJIhg5NDMtNDI0Nzc4MC0xNTIxNjA0BjoGRVQ%3D--73b3ec7373becef1918931b8d9f46012980027d9; __qca=P0-1914583562-1553940994667; never_show_interstitial=true; fbm_2415071772=base_domain=.goodreads.com; csm-sid=989-0738097-0763199; fblo_2415071772=y; __gads=ID=325855e86021397a:T=1553948272:S=ALNI_MadbHyvrXutLk619jmOsTO-le-TJw; locale=en; __utmc=250562704; __utmz=250562704.1554123586.8.4.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); u=VgzLA8SwO9s0t2n-sLws2mmfJUaU26Z2TOAMp3PyBC7p5wjO; p=EH7evx0TXXePvkIikbmYF52K14hqsxrdGGZEyht77Xz1i6g3; _session_id2=c06f6009cae499f1ce4572465cd3e755; __utma=250562704.1908463853.1553940994.1554123586.1554127579.9'}`,
   },
 });
-const searchBooks = {
+export const searchBooks = {
   GoodreadsResponse: {
     Request: {
       authentication: 'true',
