@@ -19,8 +19,14 @@ const searchBookInput = React.forwardRef(
             ref={ref}
             className="search-input--large"
             placeholder="Type your book of interest"
+            data-testid="inputSearchId"
           />
-          <button type="button" onClick={() => onSubmit(text.value)} className="search-btn--large">
+          <button
+            type="button"
+            onClick={() => onSubmit(text.value)}
+            className="search-btn--large"
+            data-testid="searchButtonId"
+          >
             Search
           </button>
         </fieldset>

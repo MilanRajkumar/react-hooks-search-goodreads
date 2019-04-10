@@ -32,7 +32,9 @@ const App: React.FC<RouteComponentProps> = ({ history }) => {
   const listPlaceHolder = () => {
     return (
       <div style={{ width: '100%', textAlign: 'center', marginTop: '4rem', fontSize: '2rem' }}>
-        <span style={{ color: '#fff' }}>Your books will be shown here</span>
+        <span style={{ color: '#fff' }} data-testid="imageListBeforeId">
+          Your books will be shown here
+        </span>
       </div>
     );
   };
@@ -51,7 +53,7 @@ const App: React.FC<RouteComponentProps> = ({ history }) => {
       <SearchBooks onSubmit={onSearchBooks} ref={textInput} />
       {books.length ? (
         <div className="gallery-wrapper">
-          <div className="gallery">
+          <div className="gallery" data-testId="imageListAfterId">
             {books.length
               ? books.map((item: any, i: number) => (
                   <img
